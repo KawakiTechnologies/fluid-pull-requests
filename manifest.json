@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Fluid GitHub PRs",
+    "version": "1.0",
+    "description": "A Chrome extension that streamlines GitHub Pull Requests",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://github.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
