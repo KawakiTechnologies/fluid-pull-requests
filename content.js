@@ -1,5 +1,5 @@
 function injectButton() {
-    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu.select-menu.js-diffbar-range-menu.ml-0');
+    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu');
     if (targetElement) {
         const button = document.createElement('div');
 
@@ -32,7 +32,7 @@ function injectButton() {
 injectButton();
 
 function injectButton1() {
-    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu.select-menu.js-diffbar-range-menu.ml-0');
+    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu');
     if (targetElement) {
         const button = document.createElement('div');
 
@@ -65,7 +65,7 @@ function injectButton1() {
 injectButton1();
 
 function injectFilterMenu() {
-    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu.select-menu.js-diffbar-range-menu.ml-0');
+    const targetElement = document.querySelector('details.details-reset.details-overlay.diffbar-item.diffbar-range-menu');
 
     if (targetElement) {
         const newFilterMenu = document.createElement('file-filter');
